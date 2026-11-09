@@ -1,0 +1,21 @@
+name: Report a problem
+description: Something in Nalapakam does not work as expected.
+labels: [problem]
+body:
+  - type: markdown
+    attributes:
+      value: Issues here are public. Please leave out API keys and anything private.
+  - type: input
+    id: device
+    attributes:
+      label: iPhone or iPad, and iOS version
+      placeholder: iPhone 16, iOS 27.2
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. A screenshot helps.
+    validations:
+      required: true

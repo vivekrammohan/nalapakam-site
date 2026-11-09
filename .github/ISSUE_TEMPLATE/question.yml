@@ -1,0 +1,9 @@
+name: Ask a question or suggest an idea
+description: How something works, or something you would like Nalapakam to do.
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or idea
+    validations:
+      required: true
