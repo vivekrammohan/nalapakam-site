@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getting an API key for Nalapakam</title>
+<style>
+:root { --bg: #FAF6EF; --ink: #2B2420; --muted: #6F655C; --accent: #C2502E; --rule: #E4DCCF; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1C1917; --ink: #F2ECE4; --muted: #A89F95; --accent: #E0764F; --rule: #3A332D; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-family: Georgia, serif; font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 36px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+p { margin: 0 0 14px; }
+a { color: var(--accent); }
+.updated { color: var(--muted); margin-bottom: 24px; }
+code { font: 15px ui-monospace, Menlo, monospace; }
+nav { margin-bottom: 32px; font-size: 15px; }
+nav a { margin-right: 16px; }
+</style>
+</head>
+<body><main>
+<nav><a href="../">Nalapakam</a><a href="../privacy/">Privacy</a><a href="../support/">Support</a><a href="../keys/">API keys</a></nav>
+<h1>Getting an API key</h1>
+<p class="updated">For Nalapakam's optional AI reading.</p>
+<p>Nalapakam works without a key: recipes are read on your iPhone. A key from Anthropic, OpenAI or Google lets their models read long notes, photos and videos far better. You need only one. The key is yours: it is billed to your own account with that company, stays in your iPhone's Keychain, and is sent only to that company.</p>
+<p><strong>Which one?</strong> Gemini is the only one that can read a YouTube video or a video file itself, and it hears Indian languages best, so it is the most useful single key. Google offers a free tier with daily limits. Claude and GPT read text and photos very well and need a little prepaid credit.</p>
+<p>A ChatGPT, Claude or Gemini chat subscription does not include API access; the key comes from each company's developer site.</p>
+
+<h2 id="gemini">Google Gemini</h2>
+<p>1. Go to <a href="https://aistudio.google.com/apikey">aistudio.google.com/apikey</a> and sign in with your Google account.</p>
+<p>2. Choose <em>Create API key</em>. If you are asked for a project, let it create one.</p>
+<p>3. Copy the key. It starts with <code>AIza</code>.</p>
+<p>The free tier has daily limits and resets at midnight Pacific time. For more, add billing to the project in Google AI Studio. Google's terms apply to what you send.</p>
+
+<h2 id="anthropic">Anthropic (Claude)</h2>
+<p>1. Go to <a href="https://console.anthropic.com">console.anthropic.com</a> and create an account.</p>
+<p>2. Under <em>Billing</em>, add a small amount of credit; a few dollars lasts a long time, since a recipe costs a fraction of a cent.</p>
+<p>3. Under <em>API keys</em>, choose <em>Create key</em>, name it Nalapakam, and copy it. It starts with <code>sk-ant-</code> and is shown only once.</p>
+
+<h2 id="openai">OpenAI (GPT)</h2>
+<p>1. Go to <a href="https://platform.openai.com">platform.openai.com</a> and sign in.</p>
+<p>2. Under <em>Billing</em>, add a small amount of credit.</p>
+<p>3. Under <em>API keys</em>, choose <em>Create new secret key</em>, name it Nalapakam, and copy it. It starts with <code>sk-</code> and is shown only once.</p>
+
+<h2>Adding it to Nalapakam</h2>
+<p>1. In Nalapakam, open <em>Settings</em>, then <em>Anthropic API</em>, <em>OpenAI API</em> or <em>Google Gemini API</em> under Reading recipes.</p>
+<p>2. Paste the key and save. Nalapakam shows what it will send to that company and asks before saving.</p>
+<p>3. With more than one key, <em>Settings › Order</em> sets which is tried first.</p>
+
+<h2>Keeping it safe</h2>
+<p>Treat a key like a password: do not share it or post it, including in a support issue. You can delete it at the company's site at any time, and remove it from Nalapakam in Settings. Spending limits in each company's billing settings cap what a key can cost.</p>
+</main></body>
+</html>
