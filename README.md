@@ -1,6 +1,6 @@
 # Nalapakam
 
-A personal recipe book for iPhone and iPad. Import recipes from notes, photos, web pages and cooking videos, scale them to any number of servings, build a shopping list, and cook step by step with timers.
+A personal recipe book for iPhone and iPad. Import recipes from notes, photos, web pages and cooking videos, scale them to any number of servings, plan the week’s meals, build a shopping list, and cook step by step with timers.
 
 - **Privacy policy:** https://vivekrammohan.github.io/nalapakam-site/privacy/
 - **Support:** https://vivekrammohan.github.io/nalapakam-site/support/
@@ -17,7 +17,7 @@ Please leave out API keys and anything private. Issues here are public.
 
 ## Privacy in short
 
-Nalapakam has no accounts, analytics, advertising or tracking, and the developer receives none of your data. Recipes stay on your devices and in your own iCloud. If you add your own key for Claude, Gemini or GPT, the app sends what it needs to read a recipe straight to that company under your account. The full details are in the [privacy policy](https://vivekrammohan.github.io/nalapakam-site/privacy/).
+Nalapakam has no accounts, analytics, advertising or tracking, and the developer receives none of your data. Recipes stay on your devices and in your own iCloud. If you add your own key for Claude, Gemini or GPT, the app sends what it needs to read a recipe straight to that company under your account. If you choose the ChatGPT, Claude or Gemini app instead, the recipe text goes to that app when you send it there. The full details are in the [privacy policy](https://vivekrammohan.github.io/nalapakam-site/privacy/).
 
 ---
 
